@@ -1,7 +1,7 @@
 workspace {
 
     model {
-        cliente = person "Cliente do Broto" "A customer of the bank, with personal bank accounts." "Customer"
+        cliente = person "Cliente " "A customer of the bank, with personal bank accounts." "Customer"
         email = softwaresystem "E-mail System" "The internal Microsoft Exchange e-mail system." "External System"
         email2 = softwaresystem "E-mail System 3" "The internal Microsoft Exchange e-mail system." "External System"
         softwareSystem = softwareSystem "Software System" {
