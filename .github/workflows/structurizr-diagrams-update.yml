@@ -1,11 +1,6 @@
 name: Comment on PR with Structurizr Diagrams
 
-on:
-  workflow_run:
-    types:
-      - completed
-    workflows:
-      - "Update Structurizr Diagrams"
+on: [push]
 
 jobs:
   comment-on-pr:
